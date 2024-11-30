@@ -1,7 +1,7 @@
 const PhoneIcon = ({
   size = 18,
-  color = "currentColor",
-  title = "Phone Icon",
+  color = 'currentColor',
+  title = 'Phone Icon',
   ...rest
 }) => (
   <svg
@@ -27,6 +27,6 @@ const PhoneIcon = ({
       </clipPath>
     </defs>
   </svg>
-);
+)
 
-export default PhoneIcon;
+export default PhoneIcon

@@ -1,7 +1,7 @@
 const MessageIcon = ({
   size = 18,
-  color = "currentColor",
-  title = "Message Icon",
+  color = 'currentColor',
+  title = 'Message Icon',
   ...rest
 }) => (
   <svg
@@ -21,6 +21,6 @@ const MessageIcon = ({
       stroke-linejoin="round"
     />
   </svg>
-);
+)
 
-export default MessageIcon;
+export default MessageIcon

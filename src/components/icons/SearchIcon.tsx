@@ -1,7 +1,7 @@
 const SearchIcon = ({
   size = 18,
-  color = "currentColor",
-  title = "Search Icon",
+  color = 'currentColor',
+  title = 'Search Icon',
   ...rest
 }) => (
   <svg
@@ -21,6 +21,6 @@ const SearchIcon = ({
       stroke-linejoin="round"
     />
   </svg>
-);
+)
 
-export default SearchIcon;
+export default SearchIcon

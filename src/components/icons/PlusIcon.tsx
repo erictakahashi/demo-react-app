@@ -1,7 +1,7 @@
 const PlusIcon = ({
   size = 18,
-  color = "currentColor",
-  title = "Plus Icon",
+  color = 'currentColor',
+  title = 'Plus Icon',
   ...rest
 }) => (
   <svg
@@ -21,6 +21,6 @@ const PlusIcon = ({
       stroke-linejoin="round"
     />
   </svg>
-);
+)
 
-export default PlusIcon;
+export default PlusIcon

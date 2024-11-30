@@ -1,7 +1,7 @@
 const CloseIcon = ({
   size = 18,
-  color = "currentColor",
-  title = "Close Icon",
+  color = 'currentColor',
+  title = 'Close Icon',
   ...rest
 }) => (
   <svg
@@ -21,6 +21,6 @@ const CloseIcon = ({
       stroke-linejoin="round"
     />
   </svg>
-);
+)
 
-export default CloseIcon;
+export default CloseIcon

@@ -1,7 +1,7 @@
 const BellIcon = ({
   size = 18,
-  color = "currentColor",
-  title = "Bell Icon",
+  color = 'currentColor',
+  title = 'Bell Icon',
   ...rest
 }) => (
   <svg
@@ -21,6 +21,6 @@ const BellIcon = ({
       stroke-linejoin="round"
     />
   </svg>
-);
+)
 
-export default BellIcon;
+export default BellIcon

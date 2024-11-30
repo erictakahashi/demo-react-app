@@ -1,7 +1,7 @@
 const RowsIcon = ({
   size = 18,
-  color = "currentColor",
-  title = "Rows Icon",
+  color = 'currentColor',
+  title = 'Rows Icon',
   ...rest
 }) => (
   <svg
@@ -21,6 +21,6 @@ const RowsIcon = ({
       stroke-linejoin="round"
     />
   </svg>
-);
+)
 
-export default RowsIcon;
+export default RowsIcon

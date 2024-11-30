@@ -1,7 +1,7 @@
 const FunnelIcon = ({
   size = 18,
-  color = "currentColor",
-  title = "Funnel Icon",
+  color = 'currentColor',
+  title = 'Funnel Icon',
   ...rest
 }) => (
   <svg
@@ -21,6 +21,6 @@ const FunnelIcon = ({
       stroke-linejoin="round"
     />
   </svg>
-);
+)
 
-export default FunnelIcon;
+export default FunnelIcon

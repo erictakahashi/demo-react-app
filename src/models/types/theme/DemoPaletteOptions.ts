@@ -1,21 +1,21 @@
-import type { PaletteOptions } from "@mui/material";
+import type { PaletteOptions } from '@mui/material'
 
 export type PaletteColors = {
   /** The main color. */
-  main: string;
+  main: string
   /** The color dark variant. */
-  dark: string;
+  dark: string
   /** The color light variant. */
-  light: string;
-};
+  light: string
+}
 
 export type DemoPaletteOptions = PaletteOptions & {
   /** Colors for `new inquire` status. */
-  newInquire: PaletteColors;
+  newInquire: PaletteColors
   /** Colors for `contracted` status. */
-  contracted: PaletteColors;
+  contracted: PaletteColors
   /** Colors for `booked` status. */
-  booked: PaletteColors;
+  booked: PaletteColors
   /** Colors for `completed` status. */
-  completed: PaletteColors;
-};
+  completed: PaletteColors
+}

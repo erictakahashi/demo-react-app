@@ -1,7 +1,7 @@
-import type { Preview } from "@storybook/react";
-import { ThemeProvider, CssBaseline } from "@mui/material";
-import theme from "../src/theme/theme";
-import React from "react";
+import type { Preview } from '@storybook/react'
+import { ThemeProvider, CssBaseline } from '@mui/material'
+import theme from '../src/theme/theme'
+import React from 'react'
 
 const preview: Preview = {
   decorators: [
@@ -20,6 +20,6 @@ const preview: Preview = {
       },
     },
   },
-};
+}
 
-export default preview;
+export default preview

@@ -1,7 +1,7 @@
 const FileIcon = ({
   size = 18,
-  color = "currentColor",
-  title = "File Icon",
+  color = 'currentColor',
+  title = 'File Icon',
   ...rest
 }) => (
   <svg
@@ -20,6 +20,6 @@ const FileIcon = ({
       fill={color}
     />
   </svg>
-);
+)
 
-export default FileIcon;
+export default FileIcon

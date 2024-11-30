@@ -1,7 +1,7 @@
 const UsersAddIcon = ({
   size = 18,
-  color = "currentColor",
-  title = "Users Add Icon",
+  color = 'currentColor',
+  title = 'Users Add Icon',
   ...rest
 }) => (
   <svg
@@ -21,6 +21,6 @@ const UsersAddIcon = ({
       stroke-linejoin="round"
     />
   </svg>
-);
+)
 
-export default UsersAddIcon;
+export default UsersAddIcon

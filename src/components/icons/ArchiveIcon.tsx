@@ -1,7 +1,7 @@
 const ArchiveIcon = ({
   size = 18,
-  color = "currentColor",
-  title = "Archive Icon",
+  color = 'currentColor',
+  title = 'Archive Icon',
   ...rest
 }) => (
   <svg
@@ -21,6 +21,6 @@ const ArchiveIcon = ({
       stroke-linejoin="round"
     />
   </svg>
-);
+)
 
-export default ArchiveIcon;
+export default ArchiveIcon

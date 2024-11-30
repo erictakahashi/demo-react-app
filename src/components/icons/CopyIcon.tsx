@@ -1,7 +1,7 @@
 const CopyIcon = ({
   size = 18,
-  color = "currentColor",
-  title = "Copy Icon",
+  color = 'currentColor',
+  title = 'Copy Icon',
   ...rest
 }) => (
   <svg
@@ -21,6 +21,6 @@ const CopyIcon = ({
       stroke-linejoin="round"
     />
   </svg>
-);
+)
 
-export default CopyIcon;
+export default CopyIcon

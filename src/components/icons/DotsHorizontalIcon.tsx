@@ -1,7 +1,7 @@
 const DotsHorizontalIcon = ({
   size = 18,
-  color = "currentColor",
-  title = "Dots Horizontal Icon",
+  color = 'currentColor',
+  title = 'Dots Horizontal Icon',
   ...rest
 }) => (
   <svg
@@ -35,6 +35,6 @@ const DotsHorizontalIcon = ({
       stroke-linejoin="round"
     />
   </svg>
-);
+)
 
-export default DotsHorizontalIcon;
+export default DotsHorizontalIcon

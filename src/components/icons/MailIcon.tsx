@@ -1,7 +1,7 @@
 const MailIcon = ({
   size = 18,
-  color = "currentColor",
-  title = "Mail Icon",
+  color = 'currentColor',
+  title = 'Mail Icon',
   ...rest
 }) => (
   <svg
@@ -21,6 +21,6 @@ const MailIcon = ({
       stroke-linejoin="round"
     />
   </svg>
-);
+)
 
-export default MailIcon;
+export default MailIcon

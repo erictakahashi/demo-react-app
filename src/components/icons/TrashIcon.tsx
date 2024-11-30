@@ -1,7 +1,7 @@
 const TrashIcon = ({
   size = 18,
-  color = "currentColor",
-  title = "Trash Icon",
+  color = 'currentColor',
+  title = 'Trash Icon',
   ...rest
 }) => (
   <svg
@@ -21,6 +21,6 @@ const TrashIcon = ({
       stroke-linejoin="round"
     />
   </svg>
-);
+)
 
-export default TrashIcon;
+export default TrashIcon

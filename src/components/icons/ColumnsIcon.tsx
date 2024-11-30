@@ -1,7 +1,7 @@
 const ColumnsIcon = ({
   size = 18,
-  color = "currentColor",
-  title = "Columns Icon",
+  color = 'currentColor',
+  title = 'Columns Icon',
   ...rest
 }) => (
   <svg
@@ -21,6 +21,6 @@ const ColumnsIcon = ({
       stroke-linejoin="round"
     />
   </svg>
-);
+)
 
-export default ColumnsIcon;
+export default ColumnsIcon

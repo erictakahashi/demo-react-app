@@ -1,7 +1,7 @@
 const AttachmentIcon = ({
   size = 18,
-  color = "currentColor",
-  title = "Attachment Icon",
+  color = 'currentColor',
+  title = 'Attachment Icon',
   ...rest
 }) => (
   <svg
@@ -21,6 +21,6 @@ const AttachmentIcon = ({
       stroke-linejoin="round"
     />
   </svg>
-);
+)
 
-export default AttachmentIcon;
+export default AttachmentIcon

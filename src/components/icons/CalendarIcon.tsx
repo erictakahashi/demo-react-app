@@ -1,7 +1,7 @@
 const CalendarIcon = ({
   size = 18,
-  color = "currentColor",
-  title = "Calendar Icon",
+  color = 'currentColor',
+  title = 'Calendar Icon',
   ...rest
 }) => (
   <svg
@@ -21,6 +21,6 @@ const CalendarIcon = ({
       stroke-linejoin="round"
     />
   </svg>
-);
+)
 
-export default CalendarIcon;
+export default CalendarIcon

@@ -1,7 +1,7 @@
 const BadgeIcon = ({
   size = 18,
-  color = "currentColor",
-  title = "Badge Icon",
+  color = 'currentColor',
+  title = 'Badge Icon',
   ...rest
 }) => (
   <svg
@@ -15,6 +15,6 @@ const BadgeIcon = ({
     <title id="badgeIcon">{title}</title>
     <circle cx="4" cy="4" r="3" fill={color} />
   </svg>
-);
+)
 
-export default BadgeIcon;
+export default BadgeIcon

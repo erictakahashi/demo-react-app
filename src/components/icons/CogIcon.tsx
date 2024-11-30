@@ -1,7 +1,7 @@
 const CogIcon = ({
   size = 18,
-  color = "currentColor",
-  title = "Cog Icon",
+  color = 'currentColor',
+  title = 'Cog Icon',
   ...rest
 }) => (
   <svg
@@ -35,6 +35,6 @@ const CogIcon = ({
       </clipPath>
     </defs>
   </svg>
-);
+)
 
-export default CogIcon;
+export default CogIcon

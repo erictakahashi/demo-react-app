@@ -1,7 +1,7 @@
 const AgentIcon = ({
   size = 18,
-  color = "currentColor",
-  title = "Agent Icon",
+  color = 'currentColor',
+  title = 'Agent Icon',
   ...rest
 }) => (
   <svg
@@ -20,6 +20,6 @@ const AgentIcon = ({
       fill={color}
     />
   </svg>
-);
+)
 
-export default AgentIcon;
+export default AgentIcon

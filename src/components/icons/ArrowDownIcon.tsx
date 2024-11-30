@@ -1,7 +1,7 @@
 const ArrowDownIcon = ({
   size = 18,
-  color = "currentColor",
-  title = "Arrow Down Icon",
+  color = 'currentColor',
+  title = 'Arrow Down Icon',
   ...rest
 }) => (
   <svg
@@ -21,6 +21,6 @@ const ArrowDownIcon = ({
       stroke-linejoin="round"
     />
   </svg>
-);
+)
 
-export default ArrowDownIcon;
+export default ArrowDownIcon

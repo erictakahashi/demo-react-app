@@ -1,7 +1,7 @@
 const UserCheckIcon = ({
   size = 18,
-  color = "currentColor",
-  title = "User Check Icon",
+  color = 'currentColor',
+  title = 'User Check Icon',
   ...rest
 }) => (
   <svg
@@ -20,6 +20,6 @@ const UserCheckIcon = ({
       stroke-linejoin="round"
     />
   </svg>
-);
+)
 
-export default UserCheckIcon;
+export default UserCheckIcon

@@ -1,7 +1,7 @@
 const IncomingCallIcon = ({
   size = 18,
-  color = "currentColor",
-  title = "Incoming Call Icon",
+  color = 'currentColor',
+  title = 'Incoming Call Icon',
   ...rest
 }) => (
   <svg
@@ -21,6 +21,6 @@ const IncomingCallIcon = ({
       stroke-linejoin="round"
     />
   </svg>
-);
+)
 
-export default IncomingCallIcon;
+export default IncomingCallIcon

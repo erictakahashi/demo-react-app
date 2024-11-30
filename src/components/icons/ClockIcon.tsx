@@ -1,7 +1,7 @@
 const ClockIcon = ({
   size = 18,
-  color = "currentColor",
-  title = "Clock Icon",
+  color = 'currentColor',
+  title = 'Clock Icon',
   ...rest
 }) => (
   <svg
@@ -27,6 +27,6 @@ const ClockIcon = ({
       </clipPath>
     </defs>
   </svg>
-);
+)
 
-export default ClockIcon;
+export default ClockIcon

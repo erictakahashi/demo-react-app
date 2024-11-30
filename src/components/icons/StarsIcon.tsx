@@ -1,7 +1,7 @@
 const StarsIcon = ({
   size = 18,
-  color = "currentColor",
-  title = "Stars Icon",
+  color = 'currentColor',
+  title = 'Stars Icon',
   ...rest
 }) => (
   <svg
@@ -33,6 +33,6 @@ const StarsIcon = ({
       </clipPath>
     </defs>
   </svg>
-);
+)
 
-export default StarsIcon;
+export default StarsIcon
