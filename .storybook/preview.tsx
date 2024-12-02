@@ -1,15 +1,18 @@
+import { CssBaseline, ThemeProvider } from '@mui/material'
 import type { Preview } from '@storybook/react'
-import { ThemeProvider, CssBaseline } from '@mui/material'
-import theme from '../src/theme/theme'
 import React from 'react'
+import { BrowserRouter } from 'react-router-dom'
+import theme from '../src/theme/theme'
 
 const preview: Preview = {
   decorators: [
     (Story) => (
-      <ThemeProvider theme={theme}>
-        <CssBaseline />
-        <Story />
-      </ThemeProvider>
+      <BrowserRouter>
+        <ThemeProvider theme={theme}>
+          <CssBaseline />
+          <Story />
+        </ThemeProvider>
+      </BrowserRouter>
     ),
   ],
   parameters: {
